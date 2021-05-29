@@ -1,0 +1,28 @@
+Log created: 2021-05-28 19:36:07
+Type: restore
+[2021-05-28 19:36:07][notice]init restore data
+[2021-05-28 19:36:07][notice]Start restoring wpsf.shop_wpvivid-60a7d122dbb06_2021-05-21-15-26_backup_all.part001.zip
+[2021-05-28 19:36:07][notice]extract root:/var/www/html/wp-content/wpvividbackups/
+[2021-05-28 19:36:07][notice]start extracting file:/var/www/html/wp-content/wpvividbackups/wpsf.shop_wpvivid-60a7d122dbb06_2021-05-21-15-26_backup_all.part001.zip
+[2021-05-28 19:36:09][notice]extract finished file:/var/www/html/wp-content/wpvividbackups/wpsf.shop_wpvivid-60a7d122dbb06_2021-05-21-15-26_backup_all.part001.zip
+[2021-05-28 19:36:09][notice]Finished restoring wpsf.shop_wpvivid-60a7d122dbb06_2021-05-21-15-26_backup_all.part001.zip
+[2021-05-28 19:36:11][notice]Start restoring wpsf.shop_wpvivid-60a7d122dbb06_2021-05-21-15-26_backup_plugin.zip
+[2021-05-28 19:36:11][notice]restore from files:["\/var\/www\/html\/wp-content\/wpvividbackups\/wpsf.shop_wpvivid-60a7d122dbb06_2021-05-21-15-26_backup_plugin.zip"]
+[2021-05-28 19:36:11][notice]start extracting file:/var/www/html/wp-content/wpvividbackups/wpsf.shop_wpvivid-60a7d122dbb06_2021-05-21-15-26_backup_plugin.zip
+[2021-05-28 19:36:14][notice]extract finished file:/var/www/html/wp-content/wpvividbackups/wpsf.shop_wpvivid-60a7d122dbb06_2021-05-21-15-26_backup_plugin.zip
+[2021-05-28 19:36:14][notice]Finished restoring wpsf.shop_wpvivid-60a7d122dbb06_2021-05-21-15-26_backup_plugin.zip
+[2021-05-28 19:36:15][notice]Start restoring wpsf.shop_wpvivid-60a7d122dbb06_2021-05-21-15-26_backup_core.zip
+[2021-05-28 19:36:15][notice]restore from files:["\/var\/www\/html\/wp-content\/wpvividbackups\/wpsf.shop_wpvivid-60a7d122dbb06_2021-05-21-15-26_backup_core.zip"]
+[2021-05-28 19:36:15][notice]start extracting file:/var/www/html/wp-content/wpvividbackups/wpsf.shop_wpvivid-60a7d122dbb06_2021-05-21-15-26_backup_core.zip
+[2021-05-28 19:36:17][notice]extract finished file:/var/www/html/wp-content/wpvividbackups/wpsf.shop_wpvivid-60a7d122dbb06_2021-05-21-15-26_backup_core.zip
+[2021-05-28 19:36:17][notice]Finished restoring wpsf.shop_wpvivid-60a7d122dbb06_2021-05-21-15-26_backup_core.zip
+[2021-05-28 19:36:17][notice]Start restoring wpsf.shop_wpvivid-60a7d122dbb06_2021-05-21-15-26_backup_uploads.zip
+[2021-05-28 19:36:17][notice]restore from files:["\/var\/www\/html\/wp-content\/wpvividbackups\/wpsf.shop_wpvivid-60a7d122dbb06_2021-05-21-15-26_backup_uploads.zip"]
+[2021-05-28 19:36:17][notice]start extracting file:/var/www/html/wp-content/wpvividbackups/wpsf.shop_wpvivid-60a7d122dbb06_2021-05-21-15-26_backup_uploads.zip
+[2021-05-28 19:36:18][notice]extract finished file:/var/www/html/wp-content/wpvividbackups/wpsf.shop_wpvivid-60a7d122dbb06_2021-05-21-15-26_backup_uploads.zip
+[2021-05-28 19:36:18][notice]Finished restoring wpsf.shop_wpvivid-60a7d122dbb06_2021-05-21-15-26_backup_uploads.zip
+[2021-05-28 19:36:19][notice]Restore task completed.
+[2021-05-28 19:36:20][notice]disable maintenance mode
+[2021-05-28 19:36:20][notice]clean file:/var/www/html/wp-content/wpvividbackups/wpsf.shop_wpvivid-60a7d122dbb06_2021-05-21-15-26_backup_plugin.zip
+[2021-05-28 19:36:20][notice]clean file:/var/www/html/wp-content/wpvividbackups/wpsf.shop_wpvivid-60a7d122dbb06_2021-05-21-15-26_backup_core.zip
+[2021-05-28 19:36:20][notice]clean file:/var/www/html/wp-content/wpvividbackups/wpsf.shop_wpvivid-60a7d122dbb06_2021-05-21-15-26_backup_uploads.zip

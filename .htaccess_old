@@ -1,0 +1,49 @@
+# BEGIN LSCACHE
+## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
+<IfModule LiteSpeed>
+RewriteEngine on
+CacheLookup on
+RewriteRule .* - [E=Cache-Control:no-autoflush]
+
+### marker CACHE RESOURCE start ###
+RewriteRule wp-content/.*/[^/]*(responsive|css|js|dynamic|loader|fonts)\.php - [E=cache-control:max-age=3600]
+### marker CACHE RESOURCE end ###
+
+### marker LOGIN COOKIE start ###
+RewriteRule .? - [E="Cache-Vary:wp-postpass_84b38edc0c44484ec0d57e7eca18bd4e"]
+### marker LOGIN COOKIE end ###
+
+### marker FAVICON start ###
+RewriteRule favicon\.ico$ - [E=cache-control:max-age=86400]
+### marker FAVICON end ###
+
+### marker DROPQS start ###
+CacheKeyModify -qs:fbclid
+CacheKeyModify -qs:gclid
+CacheKeyModify -qs:utm*
+CacheKeyModify -qs:_ga
+### marker DROPQS end ###
+
+</IfModule>
+## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
+# END LSCACHE
+# BEGIN NON_LSCACHE
+## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
+## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
+# END NON_LSCACHE
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+
+# END WordPress
+
+# BEGIN WPvivid_Restore
+# The directives (lines) between "BEGIN WPvivid_Restore" and "END WPvivid_Restore" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule Litespeed>
+RewriteEngine On
+RewriteRule .* - [E=noabort:1, E=noconntimeout:1]
+</IfModule>
+# END WPvivid_Restore
