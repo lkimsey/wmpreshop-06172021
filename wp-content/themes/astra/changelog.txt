@@ -1,3 +1,6 @@
+v3.4.7
+- Updated the theme screenshot and added license information for the images used in the screenshot.
+
 v3.4.6
 - Fix: Footer alignment not working after update of v3.4.5.
 

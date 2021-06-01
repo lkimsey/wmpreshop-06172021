@@ -1,0 +1,134 @@
+Log created: 2021-06-01 07:50:07
+Type: backup
+[2021-06-01 07:50:11][notice]Start backing up.
+[2021-06-01 07:50:11][notice]server info fcgi:Off max execution time: 900 wp version:5.7.2 php version:7.4.19 db version:5.5.5 php ini:safe_mode: memory_limit:256M memory_get_usage:11.96 MB memory_get_peak_usage:12.27 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2021-06-01 07:50:11][notice]Prepare to backup backup_db files.
+[2021-06-01 07:50:11][notice]Start exporting database.
+[2021-06-01 07:50:11][notice]max_allowed_packet less than 32M :16.00 MB
+[2021-06-01 07:50:11][notice]Preparing to dump table wp_term_relationships
+[2021-06-01 07:50:11][notice]Preparing to dump table wp_wfissues
+[2021-06-01 07:50:11][notice]Preparing to dump table wp_wfsnipcache
+[2021-06-01 07:50:11][notice]Preparing to dump table wp_options
+[2021-06-01 07:50:11][notice]Preparing to dump table wp_wfpendingissues
+[2021-06-01 07:50:11][notice]Preparing to dump table wp_wfls_2fa_secrets
+[2021-06-01 07:50:11][notice]Preparing to dump table wp_wfstatus
+[2021-06-01 07:50:11][notice]Preparing to dump table wp_wflocs
+[2021-06-01 07:50:11][notice]Preparing to dump table wp_wfhoover
+[2021-06-01 07:50:11][notice]Preparing to dump table wp_wfreversecache
+[2021-06-01 07:50:11][notice]Preparing to dump table wp_commentmeta
+[2021-06-01 07:50:11][notice]Preparing to dump table wp_wpvivid_scan_result
+[2021-06-01 07:50:11][notice]Preparing to dump table wp_wfls_settings
+[2021-06-01 07:50:11][notice]Preparing to dump table wp_users
+[2021-06-01 07:50:11][notice]Preparing to dump table wp_wfknownfilelist
+[2021-06-01 07:50:11][notice]Preparing to dump table wp_wfhits
+[2021-06-01 07:50:11][notice]Preparing to dump table wp_comments
+[2021-06-01 07:50:11][notice]Preparing to dump table wp_wfnotifications
+[2021-06-01 07:50:11][notice]Preparing to dump table wp_wfconfig
+[2021-06-01 07:50:11][notice]Preparing to dump table wp_wffilechanges
+[2021-06-01 07:50:11][notice]Preparing to dump table wp_termmeta
+[2021-06-01 07:50:11][notice]Preparing to dump table wp_shortpixel_folders
+[2021-06-01 07:50:11][notice]Preparing to dump table wp_wfcrawlers
+[2021-06-01 07:50:11][notice]Preparing to dump table wp_links
+[2021-06-01 07:50:11][notice]Preparing to dump table wp_postmeta
+[2021-06-01 07:50:12][notice]Preparing to dump table wp_wffilemods
+[2021-06-01 07:50:12][notice]Preparing to dump table wp_wflogins
+[2021-06-01 07:50:12][notice]Preparing to dump table wp_term_taxonomy
+[2021-06-01 07:50:12][notice]Preparing to dump table wp_terms
+[2021-06-01 07:50:12][notice]Preparing to dump table wp_shortpixel_meta
+[2021-06-01 07:50:12][notice]Preparing to dump table wp_wflivetraffichuman
+[2021-06-01 07:50:12][notice]Preparing to dump table wp_posts
+[2021-06-01 07:50:12][notice]Preparing to dump table wp_wpvivid_unused_uploads_files
+[2021-06-01 07:50:12][notice]Preparing to dump table wp_brizy_logs
+[2021-06-01 07:50:12][notice]Preparing to dump table wp_wfblockediplog
+[2021-06-01 07:50:12][notice]Preparing to dump table wp_usermeta
+[2021-06-01 07:50:12][notice]Preparing to dump table wp_wftrafficrates
+[2021-06-01 07:50:12][notice]Preparing to dump table wp_wfblocks7
+[2021-06-01 07:50:12][notice]Exporting database finished.
+[2021-06-01 07:50:12][notice]Start compressing backup_db
+[2021-06-01 07:50:12][notice]Prepare to zip files. file: wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_db.zip
+[2021-06-01 07:50:13][notice]Adding zip files completed.wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_db.zip, filesize: 4.07 MB
+[2021-06-01 07:50:13][notice]Compressing backup_db completed
+[2021-06-01 07:50:13][notice]Backing up backup_db completed.
+[2021-06-01 07:50:13][notice]Prepare to backup backup_themes files.
+[2021-06-01 07:50:13][notice]File number: 788
+[2021-06-01 07:50:13][notice]Start compressing backup_themes
+[2021-06-01 07:50:13][notice]Prepare to zip files. file: wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_themes.zip
+[2021-06-01 07:50:14][notice]Adding zip files completed.wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_themes.zip, filesize: 23.32 MB
+[2021-06-01 07:50:14][notice]Compressing backup_themes completed
+[2021-06-01 07:50:14][notice]Backing up backup_themes completed.
+[2021-06-01 07:50:14][notice]Prepare to backup backup_plugin files.
+[2021-06-01 07:50:14][notice]File number: 10160
+[2021-06-01 07:50:14][notice]Start compressing backup_plugin
+[2021-06-01 07:50:15][notice]Prepare to zip files. file: wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_plugin.zip
+[2021-06-01 07:50:46][notice]Adding zip files completed.wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_plugin.zip, filesize: 115.05 MB
+[2021-06-01 07:50:46][notice]Compressing backup_plugin completed
+[2021-06-01 07:50:46][notice]Backing up backup_plugin completed.
+[2021-06-01 07:50:46][notice]Prepare to backup backup_uploads files.
+[2021-06-01 07:50:46][notice]File number: 2339
+[2021-06-01 07:50:46][notice]Start compressing backup_uploads
+[2021-06-01 07:50:46][notice]Prepare to zip files. file: wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_uploads.part001.zip
+[2021-06-01 07:50:59][notice]Adding zip files completed.wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_uploads.part001.zip, filesize: 200.29 MB
+[2021-06-01 07:50:59][notice]Prepare to zip files. file: wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_uploads.part002.zip
+[2021-06-01 07:51:01][notice]Adding zip files completed.wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_uploads.part002.zip, filesize: 3.50 MB
+[2021-06-01 07:51:01][notice]Compressing backup_uploads completed
+[2021-06-01 07:51:01][notice]Backing up backup_uploads completed.
+[2021-06-01 07:51:01][notice]Prepare to backup backup_content files.
+[2021-06-01 07:51:01][notice]File number: 14
+[2021-06-01 07:51:01][notice]Start compressing backup_content
+[2021-06-01 07:51:01][notice]Prepare to zip files. file: wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_content.zip
+[2021-06-01 07:51:01][notice]Adding zip files completed.wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_content.zip, filesize: 5.34 MB
+[2021-06-01 07:51:01][notice]Compressing backup_content completed
+[2021-06-01 07:51:01][notice]Backing up backup_content completed.
+[2021-06-01 07:51:01][notice]Prepare to backup backup_core files.
+[2021-06-01 07:51:01][notice]File number: 1824
+[2021-06-01 07:51:01][notice]Start compressing backup_core
+[2021-06-01 07:51:02][notice]Prepare to zip files. file: wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_core.zip
+[2021-06-01 07:51:03][notice]Adding zip files completed.wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_core.zip, filesize: 43.88 MB
+[2021-06-01 07:51:03][notice]Compressing backup_core completed
+[2021-06-01 07:51:03][notice]Backing up backup_core completed.
+[2021-06-01 07:51:03][notice]Prepare to backup backup_merge files.
+[2021-06-01 07:51:03][notice]File number: 7
+[2021-06-01 07:51:03][notice]Start compressing backup_merge
+[2021-06-01 07:51:04][notice]Prepare to zip files. file: wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_all.part001.zip
+[2021-06-01 07:51:14][notice]Adding zip files completed.wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_all.part001.zip, filesize: 198.52 MB
+[2021-06-01 07:51:16][notice]Cleaned up file, filename: /var/www/html/wp-content/wpvividbackups/wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_uploads.part001.zip
+[2021-06-01 07:51:16][notice]Prepare to zip files. file: wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_all.part002.zip
+[2021-06-01 07:51:25][notice]Adding zip files completed.wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_all.part002.zip, filesize: 68.34 MB
+[2021-06-01 07:51:25][notice]Cleaned up file, filename: /var/www/html/wp-content/wpvividbackups/wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_plugin.zip
+[2021-06-01 07:51:25][notice]Cleaned up file, filename: /var/www/html/wp-content/wpvividbackups/wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_core.zip
+[2021-06-01 07:51:25][notice]Cleaned up file, filename: /var/www/html/wp-content/wpvividbackups/wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_themes.zip
+[2021-06-01 07:51:25][notice]Cleaned up file, filename: /var/www/html/wp-content/wpvividbackups/wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_content.zip
+[2021-06-01 07:51:25][notice]Cleaned up file, filename: /var/www/html/wp-content/wpvividbackups/wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_db.zip
+[2021-06-01 07:51:25][notice]Cleaned up file, filename: /var/www/html/wp-content/wpvividbackups/wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_uploads.part002.zip
+[2021-06-01 07:51:25][notice]Compressing backup_merge completed
+[2021-06-01 07:51:25][notice]Backing up backup_merge completed.
+[2021-06-01 07:51:25][notice]Backup completed.
+[2021-06-01 07:51:25][notice]Backup succeeded.
+[2021-06-01 07:51:25][notice]Start upload.
+[2021-06-01 07:51:25][notice]Check upload folder wpvivid_backup
+[2021-06-01 07:51:27][notice]Start uploading wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_all.part001.zip
+[2021-06-01 07:51:27][notice]Check if the server already has the same name file.
+[2021-06-01 07:51:27][notice]Initiate a resumable upload session.
+[2021-06-01 07:51:31][notice]Uploading wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_all.part001.zip Total size: 198.52 MB Uploaded: 13.00 MB speed:3407.87kb/s
+[2021-06-01 07:51:35][notice]Uploading wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_all.part001.zip Total size: 198.52 MB Uploaded: 27.00 MB speed:3670.02kb/s
+[2021-06-01 07:51:39][notice]Uploading wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_all.part001.zip Total size: 198.52 MB Uploaded: 41.00 MB speed:3670.02kb/s
+[2021-06-01 07:51:43][notice]Uploading wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_all.part001.zip Total size: 198.52 MB Uploaded: 56.00 MB speed:3932.16kb/s
+[2021-06-01 07:51:47][notice]Uploading wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_all.part001.zip Total size: 198.52 MB Uploaded: 71.00 MB speed:3932.16kb/s
+[2021-06-01 07:51:51][notice]Uploading wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_all.part001.zip Total size: 198.52 MB Uploaded: 87.00 MB speed:4194.3kb/s
+[2021-06-01 07:51:55][notice]Uploading wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_all.part001.zip Total size: 198.52 MB Uploaded: 105.00 MB speed:4718.59kb/s
+[2021-06-01 07:51:59][notice]Uploading wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_all.part001.zip Total size: 198.52 MB Uploaded: 124.00 MB speed:4980.74kb/s
+[2021-06-01 07:52:03][notice]Uploading wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_all.part001.zip Total size: 198.52 MB Uploaded: 143.00 MB speed:4980.74kb/s
+[2021-06-01 07:52:07][notice]Uploading wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_all.part001.zip Total size: 198.52 MB Uploaded: 163.00 MB speed:5242.88kb/s
+[2021-06-01 07:52:11][notice]Uploading wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_all.part001.zip Total size: 198.52 MB Uploaded: 180.00 MB speed:4456.45kb/s
+[2021-06-01 07:52:15][notice]Uploading wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_all.part001.zip Total size: 198.52 MB Uploaded: 198.52 MB speed:4853.95kb/s
+[2021-06-01 07:52:15][notice]Finished uploading wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_all.part001.zip
+[2021-06-01 07:52:15][notice]Start uploading wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_all.part002.zip
+[2021-06-01 07:52:15][notice]Check if the server already has the same name file.
+[2021-06-01 07:52:16][notice]Initiate a resumable upload session.
+[2021-06-01 07:52:19][notice]Uploading wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_all.part002.zip Total size: 68.34 MB Uploaded: 13.00 MB speed:3407.87kb/s
+[2021-06-01 07:52:23][notice]Uploading wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_all.part002.zip Total size: 68.34 MB Uploaded: 31.00 MB speed:4718.59kb/s
+[2021-06-01 07:52:27][notice]Uploading wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_all.part002.zip Total size: 68.34 MB Uploaded: 49.00 MB speed:4718.59kb/s
+[2021-06-01 07:52:31][notice]Uploading wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_all.part002.zip Total size: 68.34 MB Uploaded: 67.00 MB speed:4718.59kb/s
+[2021-06-01 07:52:32][notice]Finished uploading wmpre.shop_wpvivid-60b5e6afaf3a4_2021-06-01-07-50_backup_all.part002.zip
+[2021-06-01 07:52:32][notice]Cleaned up local files after uploading to remote storages.
+[2021-06-01 07:52:32][notice]Upload succeeded.
