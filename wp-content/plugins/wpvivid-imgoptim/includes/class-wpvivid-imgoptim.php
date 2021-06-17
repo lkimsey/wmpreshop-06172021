@@ -74,6 +74,10 @@ class WPvivid_ImgOptim
 
         include_once WPVIVID_IMGOPTIM_DIR . '/includes/lazyload/class-wpvivid-lazy-load.php';
         new WPvivid_Lazy_Load();
+
+        include_once WPVIVID_IMGOPTIM_DIR . '/includes/cdn/class-wpvivid-cdn.php';
+        new WPvivid_CDN();
+
         if(is_admin())
         {
             include_once WPVIVID_IMGOPTIM_DIR . '/includes/display/class-wpvivid-imgoptim-display.php';
@@ -86,6 +90,9 @@ class WPvivid_ImgOptim
 
             include_once WPVIVID_IMGOPTIM_DIR . '/includes/display/class-wpvivid-lazy-load-display.php';
             new WPvivid_Lazy_Load_Display();
+
+            include_once WPVIVID_IMGOPTIM_DIR . '/includes/display/class-wpvivid-cdn-display.php';
+            new WPvivid_CDN_Display();
         }
     }
 
@@ -604,13 +611,9 @@ class WPvivid_ImgOptim
                                 <small><span style="float: right;"><a href="#" style="text-decoration: none;"><span class="dashicons dashicons-migrate wpvivid-dashicons-grey"></span></a></span></small><br>
                             </li>
                             <li><span class="dashicons dashicons-cloud  wpvivid-dashicons-grey"></span>
-                                <a href="#"><b><?php _e('CDN Integration(coming soon)', 'wpvivid-imgoptim'); ?></b></a>
+                                <a href="https://docs.wpvivid.com/wpvivid-image-optimization-pro-integrate-cdn.html"><b><?php _e('cdn Integration', 'wpvivid-imgoptim'); ?></b></a>
                                 <small><span style="float: right;"><a href="#" style="text-decoration: none;"><span class="dashicons dashicons-migrate wpvivid-dashicons-grey"></span></a></span></small><br>
                             </li>
-                            <!--<li><span class="dashicons dashicons-code-standards  wpvivid-dashicons-grey"></span>
-                                <a href="https://wpvivid.com/wpvivid-backup-pro-unused-images-cleaner"><b><?php //_e('Unused Images Cleaner', 'wpvivid-imgoptim'); ?></b></a>
-                                <small><span style="float: right;"><a href="#" style="text-decoration: none;"><span class="dashicons dashicons-migrate wpvivid-dashicons-grey"></span></a></span></small><br>
-                            </li>-->
                         </ul>
                     </div>
                     <h2><span class="dashicons dashicons-businesswoman wpvivid-dashicons-green"></span>

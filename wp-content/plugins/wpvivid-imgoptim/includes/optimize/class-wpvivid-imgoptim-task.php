@@ -456,20 +456,6 @@ class WPvivid_ImgOptim_Task
             return $ret;
         }
 
-        if($this->is_resize($image_id))
-        {
-            $this->WriteLog('Start resizing image id:'.$image_id,'notice');
-            $this->resize($image_id);
-        }
-
-        $only_resize=isset($this->task['options']['only_resize'])?$this->task['options']['only_resize']:false;
-
-        if($only_resize)
-        {
-            $ret['result']='success';
-            return $ret;
-        }
-
         $file_path = get_attached_file( $image_id );
         $meta = wp_get_attachment_metadata( $image_id, true );
         $image_opt_meta = get_post_meta( $image_id, 'wpvivid_image_optimize_meta', true );
@@ -549,6 +535,21 @@ class WPvivid_ImgOptim_Task
             $this->WriteLog('Start backing up image(s).','notice');
             $this->backup($files,$image_id);
         }
+
+        if($this->is_resize($image_id))
+        {
+            $this->WriteLog('Start resizing image id:'.$image_id,'notice');
+            $this->resize($image_id);
+        }
+
+        $only_resize=isset($this->task['options']['only_resize'])?$this->task['options']['only_resize']:false;
+
+        if($only_resize)
+        {
+            $ret['result']='success';
+            return $ret;
+        }
+
         $retry=0;
 
         if(empty($files))
@@ -824,9 +825,9 @@ class WPvivid_ImgOptim_Task
     {
         $this->task=get_option('wpvivid_image_opt_task',array());
 
-        $resize=isset($this->task['options']['resize'])?$this->task['options']['resize']:true;
+        $resize=isset($this->task['options']['resize'])?$this->task['options']['resize']:false;
 
-        if($resize)
+        if($resize!==false&&$resize['enable'])
         {
             $meta =wp_get_attachment_metadata( $id );
 
@@ -834,9 +835,8 @@ class WPvivid_ImgOptim_Task
             {
                 $old_width  = $meta['width'];
                 $old_height = $meta['height'];
-
-                $max_width=1280;
-                $max_height=1280;
+                $max_width=isset($resize['width'])?$resize['width']:1280;
+                $max_height=isset($resize['height'])?$resize['height']:1280;
 
                 if ( ( $old_width > $max_width && $max_width > 0 ) || ( $old_height > $max_height && $max_height > 0 ) )
                 {
@@ -856,8 +856,15 @@ class WPvivid_ImgOptim_Task
     {
         $file_path = get_attached_file( $image_id );
 
-        $max_width=1280;
-        $max_height=1280;
+        $resize=isset($this->task['options']['resize'])?$this->task['options']['resize']:false;
+
+        if($resize===false)
+        {
+            return true;
+        }
+
+        $max_width=isset($resize['width'])?$resize['width']:1280;
+        $max_height=isset($resize['height'])?$resize['height']:1280;
 
         $data=image_make_intermediate_size($file_path,$max_width,$max_height);
         if(!$data)

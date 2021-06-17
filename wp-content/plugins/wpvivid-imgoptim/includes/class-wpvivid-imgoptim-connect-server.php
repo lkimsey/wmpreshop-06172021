@@ -262,9 +262,17 @@ class WPvivid_Image_Optimize_Connect_server
 
         if(!is_wp_error($filename))
         {
-            rename($filename,$out);
-            $ret['result']='success';
-            return $ret;
+            if(filesize($filename)==0)
+            {
+                $ret['result']='failed';
+                $ret['error']='File size is 0.';
+            }
+            else
+            {
+                rename($filename,$out);
+                $ret['result']='success';
+                return $ret;
+            }
         }
         else
         {

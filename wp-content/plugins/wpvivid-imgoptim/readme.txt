@@ -4,7 +4,7 @@ Tags: optimize images, compress images, resize images, lazy load images, reduce 
 Requires at least: 5.1
 Tested up to: 5.7
 Requires PHP: 5.3
-Stable tag: 0.9.8
+Stable tag: 0.9.9
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -19,6 +19,7 @@ WPvivid Image Optimization and Compression Plugin is an all-in-one WordPress ima
 * **Upload Images up to 5MB in Size** - That means you can optimize up to 5GB images per month.
 * **Optimized API without Speed Limit**- Process images instantly without a speed limit.
 * **Lazy Load Images** - Delay loading images until they are needed to speed up your pages.
+* **CDN Integration** - Integrate CDN service to your website to speed up your page load time.
 * **Images Bulk Optimization** - Optimize all your images in bulk in a simple click.
 * **Original Images Backup/Restore** - Back up original images and restore them later as needed.
 * **Lossy and Lossless Compression** - Support both lossy and lossless compression options.
@@ -84,6 +85,11 @@ The optimized images list is saved in the postmeta table in your WordPress datab
 Feel free to let us know how we can help using the [support forum](https://wordpress.org/support/plugin/wpvivid-imgoptim/) for WPvivid Image Optimization plugin on WordPress.org or our [contact form](https://wpvivid.com/contact-us).
 
 == Changelog ==
+= 0.9.9 =
+- Added a new feature of integrating CDN service to your website.
+- Fixed a bug that can occur in some cases when resizing images.
+- Fixed some bugs in the plugin code.
+- Optimized the plugin code.
 = 0.9.8 =
 - Fixed some bugs in the plugin code.
 - Optimized the plugin code.

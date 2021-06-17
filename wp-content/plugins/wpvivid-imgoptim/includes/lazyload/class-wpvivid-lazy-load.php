@@ -459,18 +459,7 @@ class WPvivid_Lazy_Load
 
             $options=get_option('wpvivid_optimization_options',array());
             $animation=isset($options['lazyload']['animation'])?$options['lazyload']['animation']:'fadein';
-            if($animation=='fadein')
-            {
-                $placeholder='';
-            }
-            else if($animation=='spinner')
-            {
-                $placeholder=WPVIVID_IMGOPTIM_URL.'/includes/lazyload/lazyloader-1.gif';
-            }
-            else
-            {
-                $placeholder=WPVIVID_IMGOPTIM_URL.'/includes/lazyload/placeholder.png';
-            }
+            $placeholder='';
 
             $this->add_attribute( $new_image, 'src', $placeholder);
         }
